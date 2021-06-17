@@ -22,7 +22,7 @@ public class Testvalidation {
 	@Test
 	void verifUrl()
 	{
-		assertTrue(v.detecturl("http:www/github.com"));
+		assertTrue(v.detecturl("/github.com"));
 	}
 	
 	
